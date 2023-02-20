@@ -20,6 +20,7 @@ node {
     println toolbelt
 	
     stage('checkout source') {
+	    println 'in check out source'
         // when running in multi-branch job, one must issue this command
         checkout scm
     }
